@@ -1,1 +1,1 @@
-# Barber-practice
+# https://dawid-bazyluk.github.io/Barber-practice/
