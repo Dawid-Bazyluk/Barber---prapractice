@@ -4,41 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Barbershop</title>
   </head>
   <body>
-    <header>
-      <a href="#"
-        ><img
-          src="img/header/logo.jpg"
-          alt="logo Barbershop"
-          width="69"
-          height="56"
-      /></a>
-      <nav>
-        <ul>
-          <li><a href="#">O nas</a></li>
-          <li><a href="#">Usługi i ceny</a></li>
-          <li><a href="#">Barberzy</a></li>
-          <li><a href="#">Kontakt</a></li>
+    <header class="header">
+      <nav class="navigation">
+        <a class="navigation-logo" href="index.html"
+          ><img
+            src="img/header/logo.jpg"
+            alt="logo Barbershop"
+            width="69"
+            height="56"
+        /></a>
+        <ul class="navigation-list">
+          <li class="naviagtion-list-item">
+            <a class="navigation-list-link" href="#">O nas</a>
+          </li>
+          <li class="naviagtion-list-item">
+            <a class="navigation-list-link" href="#">Usługi i ceny</a>
+          </li>
+          <li class="naviagtion-list-item">
+            <a class="navigation-list-link" href="#">Barberzy</a>
+          </li>
+          <li class="naviagtion-list-item">
+            <a class="navigation-list-link" href="#">Kontakt</a>
+          </li>
         </ul>
       </nav>
-      <a href="tel:+48111111111">+48 111 111 111</a>
-      <button type="button">REJESTRACJA ONLINE</button>
+      <address class="address">
+        <a class="address-phone-number" href="tel:+48111111111"
+          >+48 111 111 111</a
+        >
+      </address>
+      <button class="modal-btn" type="button">REJESTRACJA ONLINE</button>
     </header>
     <main>
       <!-- HERO -->
       <section>
-        <div>
-          <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Youtube</a></li>
+        <div class="hero-left-side">
+          <ul class="hero-social-list">
+            <li class="social-link-item"><a class="social-link" href="#">Instagram</a></li>
+            <li class="social-link-item"><a class="social-link" href="#">Youtube</a></li>
           </ul>
         </div>
-        <div>
-          <p>A hair salon for men in Kyiv</p>
-          <h1>BarberShop</h1>
-          <p>
+        <div class="hero-right-side">
+          <p class="undertitle">A hair salon for men in Kyiv</p>
+          <h1 class="main-header">BarberShop</h1>
+          <p class="description">
             Jesteśmy ekspertami w strzyżeniu. Pracujemy szybko, ostrożnie i
             elegancko.
           </p>
@@ -47,10 +66,10 @@
 
       <!-- O NAS -->
 
-      <section>
-        <div>
-          <ul>
-            <li>
+      <section class="about">
+        <div class="about-left-side">
+          <ul class="about-img-list">
+            <li class="about-img-list-item">
               <img
                 src="img/abuotus/about_us_img1.jpg"
                 alt="barber namydla brodę"
@@ -68,7 +87,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="about-right-side">
           <p>O NAS</p>
           <h2>Najlepszy Barbershop w Twoim mieście</h2>
           <p>
@@ -154,7 +173,12 @@
             />
             <h3>John Smith</h3>
             <p>Extreme Barber</p>
-            <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+            <ul>
+              <li><a href="#">inst</a></li>
+              <li><a href="#">tiwt</a></li>
+              <li><a href="#">face</a></li>
+              <li><a href="#">linkedin</a></li>
+            </ul>
           </li>
           <li>
             <img
@@ -165,7 +189,12 @@
             />
             <h3>Michele Doe</h3>
             <p>Extreme Barber</p>
-            <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+            <ul>
+              <li><a href="#">inst</a></li>
+              <li><a href="#">tiwt</a></li>
+              <li><a href="#">face</a></li>
+              <li><a href="#">linkedin</a></li>
+            </ul>
           </li>
           <li>
             <img
@@ -176,7 +205,12 @@
             />
             <h3>Alan Black</h3>
             <p>Extreme Barber</p>
-            <a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+            <ul>
+              <li><a href="#">inst</a></li>
+              <li><a href="#">tiwt</a></li>
+              <li><a href="#">face</a></li>
+              <li><a href="#">linkedin</a></li>
+            </ul>
           </li>
         </ul>
       </section>

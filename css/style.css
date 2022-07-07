@@ -1,0 +1,97 @@
+::root {
+  --main-font: "Open Sans", "sans-serif";
+  --secondary-font: "Raleway", "sans-serif";
+  --main-color: #ff6c00;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* ********************COMPONENTS */
+
+.modal-btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  /* color: #ffffff; */
+}
+
+.address {
+  font-style: normal;
+}
+
+.social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: #ff6c00;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.667x;
+     letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+.undertitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.364;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+  }
+
+/* *************************END COMPONENTS */
+
+/******************** HEADER */
+
+.navigation-list-link,
+.address-phone-number {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.1em;
+  /* color: #ffffff; */
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-phone-number:hover,
+.address-phone-number:focus {
+  color: #ff6c00;
+}
+
+/******************* END HEADER */
+
+/* *******************HERO */
+
+
+.main-header{
+  font-family: var(--secondary-font)
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.181;
+  letter-spacing: 0.05em;
+  /* color: #ffffff; */
+}
+
+
+
+/* *********************END HERO */
+
+/* ABOUT */
+
+
+/* END ABOUT */
