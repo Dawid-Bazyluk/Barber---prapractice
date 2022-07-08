@@ -1,4 +1,4 @@
-::root {
+:root {
   --main-font: "Open Sans", "sans-serif";
   --secondary-font: "Raleway", "sans-serif";
   --main-color: #ff6c00;
@@ -34,15 +34,15 @@ body {
 
 .social-link:hover,
 .social-link:focus {
-  color: #ff6c00;
+  color: var(--main-color);
 }
 
 .description {
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.667x;
+    line-height: 1.667;
      letter-spacing: 0.02em;
-    color: #9DA4BD;
+    color: #555555;
 }
 .undertitle {
     font-weight: 600;
@@ -50,8 +50,17 @@ body {
     line-height: 1.364;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+      }
+  .undertitle-light-theme .secondary-header-light-theme{
+    color:#303030;
+  }
+
+
+  .undertitle-dark-theme{
     color: rgba(157, 164, 189, 0.6);
   }
+
+  .secondary-header-dark-theme{ color: #FFFFFF;}
 
 /* *************************END COMPONENTS */
 
@@ -70,7 +79,7 @@ body {
 .navigation-list-link:focus,
 .address-phone-number:hover,
 .address-phone-number:focus {
-  color: #ff6c00;
+  color: var(--main-color);
 }
 
 /******************* END HEADER */
@@ -79,7 +88,7 @@ body {
 
 
 .main-header{
-  font-family: var(--secondary-font)
+  font-family: var(--secondary-font) 
   font-weight: 700;
   font-size: 72px;
   line-height: 1.181;
@@ -87,11 +96,95 @@ body {
   /* color: #ffffff; */
 }
 
-
+.hero .description{color: #9DA4BD;}
 
 /* *********************END HERO */
 
-/* ABOUT */
+/* *********************ABOUT */
+
+.secondary-header{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.167;
+    letter-spacing: 0.05em;
+    }
+
+.about-right-side-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.857;
+    letter-spacing: 0.02em;
+    color: #555555;
+    }
+
+/****************** END ABOUT */
 
 
-/* END ABOUT */
+/**************** SERVICES */
+.services-list-item-name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.667;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;}
+
+.services-list-item-price {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.667;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;}
+
+/************ END SERVICES */
+
+/*************** WHY US */
+.why-us-list-counter{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.357;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #303030;}
+
+    .why-us-list-text{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 1.364;
+        text-align: center;
+        color: #303030;}
+
+/*************** END WHY US */
+
+/* BARBERS */
+.barbers-list-name{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.389;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;
+    }
+.barbers-list-job{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.357;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-color)}
+
+/* END BARBERS */
+
+/* GALLERY */
+/* END GALLERY */
+
+/* KONTAKT */
+.address-list-link{
+font-weight: 400;
+font-size: 18px;
+line-height: 1.667;
+letter-spacing: 0.02em;
+color: #9DA4BD;
+}
+/* END KONTAKT */

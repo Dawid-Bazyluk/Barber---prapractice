@@ -47,15 +47,21 @@
     </header>
     <main>
       <!-- HERO -->
-      <section>
+      <section class="hero">
         <div class="hero-left-side">
           <ul class="hero-social-list">
-            <li class="social-link-item"><a class="social-link" href="#">Instagram</a></li>
-            <li class="social-link-item"><a class="social-link" href="#">Youtube</a></li>
+            <li class="social-link-item">
+              <a class="social-link" href="#">Instagram</a>
+            </li>
+            <li class="social-link-item">
+              <a class="social-link" href="#">Youtube</a>
+            </li>
           </ul>
         </div>
         <div class="hero-right-side">
-          <p class="undertitle">A hair salon for men in Kyiv</p>
+          <p class="undertitle undertitle-dark-theme">
+            A hair salon for men in Kyiv
+          </p>
           <h1 class="main-header">BarberShop</h1>
           <p class="description">
             Jesteśmy ekspertami w strzyżeniu. Pracujemy szybko, ostrożnie i
@@ -71,14 +77,16 @@
           <ul class="about-img-list">
             <li class="about-img-list-item">
               <img
+                class="about-img-list-img"
                 src="img/abuotus/about_us_img1.jpg"
                 alt="barber namydla brodę"
                 width="275"
                 height="445"
               />
             </li>
-            <li>
+            <li class="about-img-list-item">
               <img
+                class="about-img-list-img"
                 src="img/abuotus/about_us_img2.jpg"
                 alt="barber strzyże brzytwą"
                 width="275"
@@ -88,71 +96,69 @@
           </ul>
         </div>
         <div class="about-right-side">
-          <p>O NAS</p>
-          <h2>Najlepszy Barbershop w Twoim mieście</h2>
-          <p>
+          <p class="undertitle undertitle-light-theme">O NAS</p>
+          <h2 class="secondary-header">Najlepszy Barbershop w Twoim mieście</h2>
+          <p class="description">
             Jeśli chcesz dodać pewności do swojego stylu i wyglądu – jesteś w
             dobrym miejscu.
           </p>
-          <p>
+          <p class="about-right-side-description">
             Jesteśmy zespołem, który nigdy nie stoi w miejscu i jest cały czas w
             poszukiwaniu coraz lepszych rozwiązań. Kiedy przyjdziesz do nas, już
             nigdy nie będziesz mógł zrezygnować ze swojego nowego stylu.
             Jesteśmy zespołem, który zawsze jest z klientem na “TY”, dobrze
             wiemy, co klient chcę. Chętnie zrobimy upgrade Twojemu wyglądu!
           </p>
-          <button type="button">REJESTRACJA ONLINE</button>
+          <button class="modal-btn" type="button">REJESTRACJA ONLINE</button>
         </div>
       </section>
 
       <!-- Usługi i ceny -->
 
-      <section>
-        <p>PRZYJDŹ DO NAJLEPSZYCH BARBERÓW W TWOIM MIEŚCIE</p>
-        <h2>Usługi i ceny</h2>
-        <ul>
-          <li><span>Męskie strzyżenie</span><span> od 100 zł.</span></li>
-          <li><span>Strzyżenie brody</span><span> od 75 zł.</span></li>
-          <li><span>Strzyżenie wąsów</span><span> od 50 zł</span></li>
-          <li><span>Golenie brzytwą</span><span> od 75 zł.</span></li>
+      <section class="services">
+        <p class="undertitle undertitle-dark-theme ">PRZYJDŹ DO NAJLEPSZYCH BARBERÓW W TWOIM MIEŚCIE</p>
+        <h2 class="secondary-header secondary-header-dark-theme">Usługi i ceny</h2>
+        <ul class="services-list">
+          <li class="services-list-item"><span class="services-list-item-name">Męskie strzyżenie</span><span class="services-list-item-price"> od 100 zł.</span></li>
+          <li class="services-list-item"><span class="services-list-item-name">Strzyżenie brody</span><span class="services-list-item-price"> od 75 zł.</span></li>
+          <li class="services-list-item"><span class="services-list-item-name">Strzyżenie wąsów</span><span class="services-list-item-price"> od 50 zł</span></li>
+          <li class="services-list-item"><span class="services-list-item-name">Golenie brzytwą</span><span class="services-list-item-price"> od 75 zł.</span></li>
         </ul>
-        <ul>
-          <li><span>Strzyżenie jedna długość</span><span> od 50 zł.</span></li>
-          <li><span>Strzyżenie maszynką</span><span> od 75 zł.</span></li>
-          <li>
-            <span>Strzyżenie chłopca (do 12 lat)</span><span> od 80 zł.</span>
-          </li>
-          <li><span>Repigmentacja włosów</span><span> od 100 zł.</span></li>
+        <ul class="services-list">
+          <li class="services-list-item"><span class="services-list-item-name">Strzyżenie jedna długość</span><span class="services-list-item-price"> od 50 zł.</span></li>
+          <li class="services-list-item"><span class="services-list-item-name">Strzyżenie maszynką</span><span class="services-list-item-price"> od 75 zł.</span></li>
+          <li class="services-list-item"><span class="services-list-item-name">Strzyżenie chłopca (do 12 lat)</span><span class="services-list-item-price"> od 80 zł.</span></li>
+          <li class="services-list-item"><span class="services-list-item-name">Repigmentacja włosów</span><span class="services-list-item-price"> od 100 zł.</span></li>
         </ul>
-        <button type="button">REJESTRACJA ONLINE</button>
+        <button class="modal-btn" type="button">REJESTRACJA ONLINE</button>
       </section>
 
       <!-- WHY US -->
-      <section>
-        <div>
-          <ul>
-            <li>
-              <p>600</p>
-              <p>Zadowolonych klientów dziennie</p>
+      <section class="why-us">
+        <div class="why-us-left-side">
+          <ul class="why-us-list">
+            <li class="why-us-list-item">
+              <p class="why-us-list-counter">600</p>
+              <p class="why-us-list-text">Zadowolonych klientów dziennie</p>
             </li>
-            <li>
-              <p>50</p>
-              <p>Nagród za najlepszą obsługę</p>
+            <li class="why-us-list-item">
+              <p class="why-us-list-counter">50</p>
+              <p class="why-us-list-text">Nagród za najlepszą obsługę</p>
             </li>
-            <li>
-              <p>20</p>
-              <p>Najlepszych barberów Warszawy</p>
+            <li class="why-us-list-item">
+              <p class="why-us-list-counter">20</p>
+              <p class="why-us-list-text">Najlepszych barberów Warszawy</p>
             </li>
-            <li>
-              <p>100</p>
-              <p>Prezentów stałym klientom</p>
+            <li class="why-us-list-item">
+              <p class="why-us-list-counter">100</p>
+              <p class="why-us-list-text">Prezentów stałym klientom</p>
             </li>
           </ul>
         </div>
-        <div>
-          <p>TRADYCYJNA SZKOŁA</p>
-          <h2>Dlaczego klienci przychodzą do nas?</h2>
-          <p>
+        <div class="why-us-right-side">
+          <p class="undertitle undertitle-light-theme">TRADYCYJNA SZKOŁA</p>
+          <h2 class="secondary-header">Dlaczego klienci przychodzą do nas?</h2>
+          <p class="description">
             O nas mówią tylko dobrze. Ale najlepiej jeden raz zobaczyć i odczuć,
             niż 10 razy przeczytać.
           </p>
@@ -160,56 +166,56 @@
       </section>
 
       <!-- NASI BARBERZY -->
-      <section>
-        <p>Dla prawdziwych mężczyzn</p>
-        <h2>Nasi barberzy</h2>
-        <ul>
-          <li>
-            <img
+      <section class="barbers">
+        <p class="undertitle undertitle-light-theme">Dla prawdziwych mężczyzn</p>
+        <h2 class="secondary-header">Nasi barberzy</h2>
+        <ul class="barbers-list">
+          <li class="barbers-list-item">
+            <img class="barbers-list-photo" 
               src="img/barberzy/barber1.jpg"
               alt="barber z zegarkiem"
               width="370"
               height="346"
             />
-            <h3>John Smith</h3>
-            <p>Extreme Barber</p>
-            <ul>
-              <li><a href="#">inst</a></li>
-              <li><a href="#">tiwt</a></li>
-              <li><a href="#">face</a></li>
-              <li><a href="#">linkedin</a></li>
+            <h3 class="barbers-list-name">John Smith</h3>
+            <p class="barbers-list-job">Extreme Barber</p>
+            <ul class="social-list">
+              <li class="social-list-item"><a class="social-list-link" href="#">inst</a></li>
+              <li class="social-list-item"><a class="social-list-link" href="#">tiwt</a></li>
+              <li class="social-list-item"><a class="social-list-link" href="#">face</a></li>
+              <li class="social-list-item"><a class="social-list-link" href="#">linkedin</a></li>
             </ul>
-          </li>
+          </li class="barbers-list-item">
           <li>
-            <img
+            <img class="barbers-list-photo"
               src="img/barberzy/barber2.jpg"
               alt="barber z maszynką"
               width="370"
               height="346"
             />
-            <h3>Michele Doe</h3>
-            <p>Extreme Barber</p>
-            <ul>
-              <li><a href="#">inst</a></li>
-              <li><a href="#">tiwt</a></li>
-              <li><a href="#">face</a></li>
-              <li><a href="#">linkedin</a></li>
+            <h3 class="barbers-list-name">Michele Doe</h3>
+            <p class="barbers-list-job">Extreme Barber</p>
+            <ul class="social-list">
+              <li class="social-list-item"><a class="social-list-link" href="#">inst</a></li>
+              <li class="social-list-item"><a class="social-list-link" href="#">tiwt</a></li>
+              <li class="social-list-item"><a class="social-list-link" href="#">face</a></li>
+              <li class="social-list-item"><a class="social-list-link" href="#">linkedin</a></li>
             </ul>
           </li>
-          <li>
-            <img
+          <li class="barbers-list-item">
+            <img class="barbers-list-photo"
               src="img/barberzy/barber3.jpg"
               alt="barber z grzebieniem"
               width="370"
               height="346"
             />
-            <h3>Alan Black</h3>
-            <p>Extreme Barber</p>
-            <ul>
-              <li><a href="#">inst</a></li>
-              <li><a href="#">tiwt</a></li>
-              <li><a href="#">face</a></li>
-              <li><a href="#">linkedin</a></li>
+            <h3 class="barbers-list-name">Alan Black</h3>
+            <p class="barbers-list-job">Extreme Barber</p>
+            <ul class="social-list">
+              <li class="social-list-item"><a class="social-list-link" href="#">inst</a></li>
+              <li class="social-list-item"><a class="social-list-link" href="#">tiwt</a></li>
+              <li class="social-list-item"><a class="social-list-link" href="#">face</a></li>
+              <li class="social-list-item"><a class="social-list-link"  class="social-list-link"href="#">linkedin</a></li>
             </ul>
           </li>
         </ul>
@@ -217,36 +223,36 @@
 
       <!-- GALERIA -->
 
-      <section>
-        <p>W języku łacinskim “barba” oznacza “broda”</p>
+      <section class="gallery">
+        <p class="undertitle undertitle-light" >W języku łacinskim “barba” oznacza “broda”</p>
 
-        <ul>
-          <li>
-            <img
+        <ul class="gallery-list">
+          <li class="gallery-list-item">
+            <img class="gallery-list-photo"
               src="img/galeria/galeria1.jpg"
               alt="barber1"
               width="270"
               height="360"
             />
           </li>
-          <li>
-            <img
+          <li class="gallery-list-item">
+            <img class="gallery-list-photo"
               src="img/galeria/galeria2.jpg"
               alt="barber2"
               width="270"
               height="360"
             />
           </li>
-          <li>
-            <img
+          <li class="gallery-list-item">
+            <img class="gallery-list-photo"
               src="img/galeria/galeria3.jpg"
               alt="barber3"
               width="270"
               height="360"
             />
           </li>
-          <li>
-            <img
+          <li class="gallery-list-item">
+            <img class="gallery-list-photo"
               src="img/galeria/galeria4.jpg"
               alt="barber4"
               width="270"
@@ -258,27 +264,27 @@
 
       <!-- KONTAKT -->
 
-      <div>
-        <section>
-          <p>Rezerwacja online</p>
+      <div class="contact">
+        <section class="contact-form">
+          <h2 class="secondary-header secondary-header-dark-theme ">Rezerwacja online</h2>
         </section>
-        <section>
-          <h2>Kontakt</h2>
-          <address>
-            <ul>
-              <li>
-                <a href="https://goo.gl/maps/u17jUNrokgMSPVnHA" target="_blank"
+        <section class="contact-info">
+          <h2 class="secondary-header secondary-header-dark-theme ">Kontakt</h2>
+          <address class="address">
+            <ul class="address-list">
+              <li class="address-list-item">
+                <a class="address-list-link" href="https://goo.gl/maps/u17jUNrokgMSPVnHA" target="_blank"
                   >ul. Prosta 20 Warszawa, 00-001</a
                 >
               </li>
-              <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-              <li>
-                <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+              <li class="address-list-item"><a class="address-list-link" href="tel:+48111111111">+48 111 111 111</a></li>
+              <li class="address-list-item">
+                <a class="address-list-link" href="mailto:barbershop@email.com">barbershop@email.com</a>
               </li>
             </ul>
           </address>
-          <p>Godziny otwarcia</p>
-          <p>Codziennie od 9:00 do 22:00</p>
+          <p class="contact-hours">Godziny otwarcia</p>
+          <p class="contact-hours-text">Codziennie od 9:00 do 22:00</p>
         </section>
       </div>
     </main>
